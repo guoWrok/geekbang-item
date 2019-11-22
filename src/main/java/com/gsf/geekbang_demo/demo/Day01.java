@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Day01 {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{0,1,1,1,2,2,2,3,4};
+        int[] nums = new int[]{0,0,1,1,1,2,2,3,3,4};
         System.err.println(Arrays.toString(nums));
 
         Day01.removeRepetitionElement(nums);
